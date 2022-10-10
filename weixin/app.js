@@ -1,0 +1,11 @@
+App({
+  globalData:{
+    server:"http://127.0.0.1:5000",
+    uid:null,
+    uname:null,
+    uphoto:null,
+    uaddress:null,
+    upassword:null,
+    uphone:null,
+  }
+})

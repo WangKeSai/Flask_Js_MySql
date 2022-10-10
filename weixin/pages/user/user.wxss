@@ -1,0 +1,41 @@
+.imagesize{
+ display:flex;                  
+ justify-content: center;    
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+.imagesize image { 
+  width:110px;
+  height:110px;
+  border-radius: 55px;
+  border:2px solid rgb(123,191,234);
+  }
+.hr {
+  width: 100%;
+  height: 15px;
+  background-color:#f4f5f6;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+.detail2 {
+  font-size: 15px;
+  position: absolute;
+  right: 10px;
+  height: 50px;
+  line-height: 50px;
+  color:rgb(123,191,234);
+}
+
+.line {
+  border: 1px solid rgb(123,191,234);
+  opacity: 0.2;
+}

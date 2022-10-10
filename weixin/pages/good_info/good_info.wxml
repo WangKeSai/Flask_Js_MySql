@@ -1,0 +1,37 @@
+<view class='img'>
+<image src="{{img_path}}" mode='widthFix'></image>
+</view>
+<view class="good">
+  <view class='name'>{{good_name}}</view>
+  <view class='price'>￥{{good_price}}</view>
+</view>
+<view class="good">
+<view class="sales">销售量：{{sales}}份</view>
+<view class='introd' >评分:{{score}}</view>
+</view>
+<view class="good">
+<view class="detail">
+  {{good_detail}}
+</view>
+</view>
+
+<view class="title1">商品评价：</view>
+<view class="divLine"></view>
+<view class='list'>
+  <block wx:for="{{comment}}" wx:key="index">
+    <view class='name_time'>
+    <image src='{{url}}/image/{{item[3]}}.jpg?{{random}}' class='image_radius'></image>
+    <view class='name2'>{{item[0]}}</view>
+    <view class='time'>{{item[1]}}</view>
+    </view>
+    <view class='list_item'>{{item[2]}}</view> 
+    <view class="divLine"></view>
+  </block>
+</view>
+<view class="divLine"></view>
+
+ <!--分割-->
+ 
+
+
+

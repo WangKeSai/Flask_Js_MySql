@@ -1,0 +1,111 @@
+page{
+  background: #F6F6F6;
+}
+
+.pageTwo .swiperClass {margin: 0;margin-top: 10px;}
+.pageTwo .slide-image {width: 100%;height: 100%;border-radius: 10px;position: relative;box-shadow: 0 0 10rpx rgba(0, 0, 0, .8)}
+.pageTwo image.active {transform: none;transition: all 0.2s ease-in 0s;box-shadow: 0 0 5rpx}
+.pageTwo image.quiet {transform: scale(0.8333333);transition: all 0.2s ease-in 0s;}
+
+
+.box-sv{
+  width: 700rpx;
+  padding: 30rpx 0;
+  height: 410rpx;
+  white-space:nowrap;
+}
+.box-sv image{
+  width: 680rpx;height: 399rpx;margin-left: 10px; margin-right: 10rpx;border-radius: 20px;
+}
+.box-sv .img{
+  width: 680rpx;height: 399rpx;margin-right: 10rpx;border-radius: 10rpx;box-shadow: 0 0 10rpx black;
+}
+
+.list{
+  margin-top:10px;
+  background: #fff;
+  width: 95%;
+  position: relative;
+  margin: 10px 10px 10px 10px;
+}
+
+.list .list_item{
+  padding:10px;
+  height:100px;
+  border-bottom:1px solid #E8E8E8;
+}
+
+.list .list_item .img{
+  float:left;
+  width:40%;
+  height:100%;
+}
+.list .list_item .img image{
+  width:100%;
+  height:100%;
+}
+
+.list .list_item .info{
+  width:59%;
+  float:right;
+  height:100px;
+  position:relative;
+}
+.list .list_item .info .title{
+  color:#333;
+  margin-left:10px;
+  margin-top:-4px;
+  font-size: 20px;
+}
+.list .list_item .info .price{
+  color:#FF2727;
+  margin-left:10px;
+  margin-top:7px;
+  font-size:20px;
+}
+.list .list_item .info .sales{
+  color:#333;
+  margin-left:10px;
+  margin-top:7px;
+  font-size:14px;
+}
+.list .list_item .info .selected{
+  color:#333;
+  margin-left:120px;
+  margin-top: -80px;
+  font-size: 15px;
+}
+.list .list_item .info .add{
+  margin-top:-40px;
+  margin-right: 20px;
+  width: 27px;
+  height: 27px;
+  float: right;
+}
+.list .list_item .info .minus{
+  margin-left:110px;
+  float: left;
+  margin-top: -40px;
+  width: 27px;
+  height: 27px;
+}
+
+
+.bottomview{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+}
+.bottomview .cart{
+  height: 40px;
+  width: 90px;
+  left: 130px;
+  background-color: rgb(123,191,234);
+  border-radius: 20%;
+  color: white;
+  box-shadow: 0 0 3px #333;
+}
+.blank{
+  height: 80px;
+}

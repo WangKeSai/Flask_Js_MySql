@@ -1,0 +1,8 @@
+/* pages/business_summary/business_summary.wxss */
+.container{
+}
+.container ec-canvas {
+  width: 100%;
+  height: 50%;
+}
+
